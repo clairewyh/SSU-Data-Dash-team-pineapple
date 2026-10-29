@@ -1436,11 +1436,11 @@
         "print(listings[[\"ml_num\", \"list_price\", \"sold_price\", \"date_sold\"]].head(10))\n"
       ],
       "metadata": {
-        "id": "Rj530tJFNfSV",
-        "outputId": "8ea810eb-c4b0-42e7-b7dd-c86814b64efc",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "Rj530tJFNfSV",
+        "outputId": "8ea810eb-c4b0-42e7-b7dd-c86814b64efc"
       },
       "id": "Rj530tJFNfSV",
       "execution_count": 157,
