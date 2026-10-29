@@ -18,13 +18,13 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "cell-1",
-        "outputId": "a42557ec-dd93-4908-b6bb-652d624ed708",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "cell-1",
+        "outputId": "37a390bc-35f5-4a0e-e89b-546bc3bb3177"
       },
-      "execution_count": 67,
+      "execution_count": 98,
       "outputs": [
         {
           "output_type": "stream",
@@ -68,14 +68,14 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "cell-3",
-        "outputId": "c7c616ea-80f0-4dbb-90d6-8f055bca0e7f",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 672
-        }
+        },
+        "id": "cell-3",
+        "outputId": "95517182-8bec-48e1-d176-5a19fa95a572"
       },
-      "execution_count": 68,
+      "execution_count": 99,
       "outputs": [
         {
           "output_type": "stream",
@@ -127,7 +127,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-4e48e2fc-044a-47ff-b0cd-d50bfd8d3374\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-c19699b6-59a0-4058-8254-fece94debfb1\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -297,7 +297,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-4e48e2fc-044a-47ff-b0cd-d50bfd8d3374')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-c19699b6-59a0-4058-8254-fece94debfb1')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -349,12 +349,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-4e48e2fc-044a-47ff-b0cd-d50bfd8d3374 button.colab-df-convert');\n",
+              "        document.querySelector('#df-c19699b6-59a0-4058-8254-fece94debfb1 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-4e48e2fc-044a-47ff-b0cd-d50bfd8d3374');\n",
+              "        const element = document.querySelector('#df-c19699b6-59a0-4058-8254-fece94debfb1');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -383,7 +383,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 68
+          "execution_count": 99
         }
       ],
       "source": [
@@ -399,14 +399,14 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "cell-4",
-        "outputId": "762368ad-bb1f-414b-f2d8-824e48240fce",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 608
-        }
+        },
+        "id": "cell-4",
+        "outputId": "53993bf7-d834-4f56-fa42-720ce043bead"
       },
-      "execution_count": 69,
+      "execution_count": 100,
       "outputs": [
         {
           "output_type": "stream",
@@ -450,7 +450,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-914412bc-5ed0-44f7-95ed-102dbfbefe55\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-fd54051d-ce70-4ab7-84bc-cb9f4b97f216\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -589,7 +589,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-914412bc-5ed0-44f7-95ed-102dbfbefe55')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-fd54051d-ce70-4ab7-84bc-cb9f4b97f216')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -641,12 +641,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-914412bc-5ed0-44f7-95ed-102dbfbefe55 button.colab-df-convert');\n",
+              "        document.querySelector('#df-fd54051d-ce70-4ab7-84bc-cb9f4b97f216 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-914412bc-5ed0-44f7-95ed-102dbfbefe55');\n",
+              "        const element = document.querySelector('#df-fd54051d-ce70-4ab7-84bc-cb9f4b97f216');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -676,7 +676,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 69
+          "execution_count": 100
         }
       ],
       "source": [
@@ -691,14 +691,14 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "cell-5",
-        "outputId": "bddd047f-5d91-4a61-9cfd-7fe9ed329963",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 383
-        }
+        },
+        "id": "cell-5",
+        "outputId": "82794591-b385-4ab4-ca6a-f01e406e44c9"
       },
-      "execution_count": 70,
+      "execution_count": 101,
       "outputs": [
         {
           "output_type": "display_data",
@@ -734,13 +734,13 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "cell-7",
-        "outputId": "496a087f-c669-40d9-fa18-a0f8b625f40d",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "cell-7",
+        "outputId": "4c31c6f4-89fe-4962-97e2-316035ee1486"
       },
-      "execution_count": 71,
+      "execution_count": 102,
       "outputs": [
         {
           "output_type": "stream",
@@ -765,14 +765,14 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "cell-8",
-        "outputId": "59330994-f08f-4d80-cc24-b17b79eb5e63",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 796
-        }
+        },
+        "id": "cell-8",
+        "outputId": "3dc09b83-9634-4537-d7ee-11807b644bc7"
       },
-      "execution_count": 72,
+      "execution_count": 103,
       "outputs": [
         {
           "output_type": "stream",
@@ -807,7 +807,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 72
+          "execution_count": 103
         }
       ],
       "source": [
@@ -833,6 +833,272 @@
       "id": "cell-9"
     },
     {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "for text in listings[\"remarks\"].sample(15, random_state=1):\n",
+        "    print(text)\n",
+        "    print(\"---\")\n",
+        "\n",
+        "from sklearn.feature_extraction.text import CountVectorizer\n",
+        "\n",
+        "sample = listings[\"remarks\"].dropna().sample(20000, random_state=1)\n",
+        "counter = CountVectorizer(ngram_range=(1, 2), stop_words=\"english\", min_df=50)\n",
+        "counts = counter.fit_transform(sample)\n",
+        "totals = counts.sum(axis=0).A1\n",
+        "words = counter.get_feature_names_out()\n",
+        "\n",
+        "top = sorted(zip(totals, words), reverse=True)[:150]\n",
+        "for n, w in top:\n",
+        "    print(n, w)\n",
+        "\n",
+        "def show(word, n=5):\n",
+        "    rows = listings[\"remarks\"].dropna()\n",
+        "    hits = rows[rows.str.lower().str.contains(word, regex=False)].sample(n, random_state=1)\n",
+        "    for t in hits:\n",
+        "        i = t.lower().find(word)\n",
+        "        print(\"...\", t[max(0, i - 60): i + 60], \"...\")\n",
+        "\n",
+        "for w in [\"ready\", \"touch\", \"needs\", \"original\", \"bones\", \"clean\"]:\n",
+        "    print(\"==\", w)\n",
+        "    show(w)"
+      ],
+      "metadata": {
+        "id": "CAAlc9QE5p4w",
+        "outputId": "aa7556bb-38a1-4f1c-edef-e5fcb90bdbc3",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "CAAlc9QE5p4w",
+      "execution_count": 104,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Sequoiafield welcomes you to this semi-detached Backsplit 5 on Spruce Boulevard. Wide-plank hardwood floors run through the open-concept main floor with a walk-out to the deck. New central air keeps it cool, and the main-floor family room is perfect for relaxing. Shops, restaurants, and the library are nearby. A couple starting out will love this turnkey home.\n",
+            "---\n",
+            "A 1-Bedroom, 1-Bath Condo Apartment On Hawthorn Lane – 600-799 sq ft of tidy original space! Parquet floors in good condition, kitchen in original but clean shape. Locker included. Building amenities: gym and party room. Steps to parks and trails. Move-in ready and perfect for entertaining.\n",
+            "---\n",
+            "A spacious apartment waiting for your personal touch. Classic original finishes throughout create a warm atmosphere. This unit includes two bathrooms and a building with a concierge, gym, and party room—ideal for a growing family. Located close to grocery stores and downtown transit. This is an inviting canvas for your next chapter!\n",
+            "---\n",
+            "This stunning 2-Storey home is fully renovated! The open-concept main floor features a walk-out to a private backyard and a spa-like bathroom with a frameless glass shower. With a finished basement and extra bathroom, it’s perfect for commuters seeking modern living. Enjoy the peace of Hickoryvale with easy access to the library and highway. Act quickly—this one won’t last!\n",
+            "---\n",
+            "On Hawthorn Street in Poplargardens, this five-bedroom detached home is offered as-is for a buyer ready to invest in its potential. The kitchen and bathrooms need replacing, and the flooring is worn throughout. A covered front porch welcomes you, and the south-facing backyard captures light across the deep 27 x 156 foot lot. A garage and two parking spots are included. The community centre is close by. This is a solid home with great bones.\n",
+            "---\n",
+            "A family that needs room to grow will find potential in this 1-bedroom, 2-bathroom condo on Tamarack Drive in Juniperhaven. The unit needs paint and new flooring, so you can put your own stamp on it. Older appliances may need replacing, but the floor-to-ceiling windows are a standout feature. Highway access and a community centre are close by for your routine. It's offered as-is, giving you flexibility to renovate at your pace. Two bathrooms are a rare bonus in this size. Parking is included for your vehicle. Bring your vision and make this space your own.\n",
+            "---\n",
+            "Turnkey and fully updated, this 4-bedroom, 3-bathroom sidesplit on a 64 x 92 ft lot is move-in ready. Heated bathroom floors, new stainless steel appliances, and a deck off the kitchen for outdoor living. Three parking spots plus a garage. Close to parks and trails. More than 2,000 sq ft of finished space for anyone who wants room to grow.\n",
+            "---\n",
+            "Young families will appreciate this thoughtfully finished one-bedroom apartment in Walnuthollow, with new vinyl plank flooring, designer light fixtures, and the convenience of ensuite laundry. Parking is included, which is a rare find. The building is well maintained and the neighbourhood offers a library just steps away. A turnkey home that requires nothing but moving in.\n",
+            "---\n",
+            "Searching for Something Special? This Spacious 2-Bdrm, 2-Bath Apartment Features a Split-Bdrm Layout and Well-Maintained Mechanicals! With Room to Entertain, You’ll Love the Lifestyle This Home Offers. Close to Transit and Schools for Maximum Convenience. Don’t Miss Out on This Opportunity!\n",
+            "---\n",
+            "Step into this freshly painted 2-bedroom, 1-bath condo! Clean, neutral finishes provide a blank canvas for your personal style. Enjoy the convenience of ensuite laundry and a community centre nearby. Great for commuters, you’ll love the accessibility and comfort of this space. Come see it today!\n",
+            "---\n",
+            "Could this be the perfect starting point for your first home? Situated on a deep 25 x 134 ft lot in Mulberryhaven, this 2-storey semi-detached house offers 2 bedrooms and 3 bathrooms across about 1,239 sq ft of living space. The eat-in kitchen provides a practical layout, while the bedrooms feature broadloom that is ready for your personal touch. The bathrooms, while older, are clean and functional. You are steps from shops, restaurants, and transit in York. The seller is motivated and open to a quick or flexible closing.\n",
+            "---\n",
+            "Welcome to a beautifully designed living space. This home features quality finishes, including new stainless steel appliances and designer light fixtures. With an expansive size, it caters well to young families. Close to grocery stores and schools, convenience is key. Move-in ready, simply unpack and start enjoying.\n",
+            "---\n",
+            "Offered As-Is And Needs A Full Cosmetic Overhaul! This 2-storey detached on Cedar Crescent in Ashworth has massive potential for a small family with vision. 3 beds, 6 baths, a 6-car garage, and parking for 5. About 6,185 sq ft on an 87 x 134 ft lot with mature trees. Steps to highway access and grocery stores. Great bones, just bring your contractor!\n",
+            "---\n",
+            "Picture yourself pulling into your driveway after work, kids playing in the fenced yard. This semi-detached on Walnut Boulevard gives you that life. The kitchen has newer countertops, and the windows are updated, making the home feel fresh. The large primary bedroom has a walk-in closet you'll love. You're close to schools for the morning rush. With 2 parking spots and a garage, there's room for everything. This home is move-in ready with a few smart updates already done. Come see your family's future in Sumacworth.\n",
+            "---\n",
+            "This clean, well-kept 2-bedroom unit is move-in ready and freshly painted. Enjoy the convenience of having a concierge service. With one bathroom and a good size, it suits both investors and those seeking a cozy home. Located in Hickoryhaven, it’s close to places of worship. This condo offers a great opportunity for your next investment. Don’t wait to see it!\n",
+            "---\n",
+            "14415 home\n",
+            "13030 bedroom\n",
+            "9494 ready\n",
+            "9348 space\n",
+            "8191 bathroom\n",
+            "8185 ft\n",
+            "7864 close\n",
+            "7769 parking\n",
+            "7715 kitchen\n",
+            "6471 offers\n",
+            "5978 condo\n",
+            "5924 family\n",
+            "5609 original\n",
+            "5539 perfect\n",
+            "5164 room\n",
+            "4798 sq ft\n",
+            "4798 sq\n",
+            "4740 living\n",
+            "4597 new\n",
+            "4551 trails\n",
+            "4454 lot\n",
+            "4366 finishes\n",
+            "4343 building\n",
+            "4323 bedroom bathroom\n",
+            "4222 enjoy\n",
+            "4194 nearby\n",
+            "4022 great\n",
+            "3975 bathrooms\n",
+            "3905 bedrooms\n",
+            "3900 features\n",
+            "3726 clean\n",
+            "3622 windows\n",
+            "3618 access\n",
+            "3478 open\n",
+            "3463 apartment\n",
+            "3420 community\n",
+            "3404 floors\n",
+            "3359 bath\n",
+            "3329 light\n",
+            "3318 steps\n",
+            "3285 make\n",
+            "3197 solid\n",
+            "3195 ft lot\n",
+            "3187 layout\n",
+            "3184 garage\n",
+            "3112 potential\n",
+            "3104 included\n",
+            "3088 appliances\n",
+            "3065 time\n",
+            "3022 redone\n",
+            "2984 offered\n",
+            "2981 convenience\n",
+            "2877 easy\n",
+            "2855 good\n",
+            "2798 floor\n",
+            "2743 storey\n",
+            "2665 ideal\n",
+            "2631 opportunity\n",
+            "2627 flooring\n",
+            "2603 needs\n",
+            "2568 turnkey\n",
+            "2562 fully\n",
+            "2554 spot\n",
+            "2500 bones\n",
+            "2465 highway\n",
+            "2457 ravine\n",
+            "2456 schools\n",
+            "2455 grocery\n",
+            "2454 parks\n",
+            "2449 stores\n",
+            "2447 ravine trails\n",
+            "2447 grocery stores\n",
+            "2444 downtown\n",
+            "2431 transit\n",
+            "2428 commute\n",
+            "2421 buyers\n",
+            "2407 shops\n",
+            "2401 looking\n",
+            "2366 modern\n",
+            "2359 centre\n",
+            "2356 community centre\n",
+            "2338 library\n",
+            "2333 newer\n",
+            "2330 bed\n",
+            "2320 highway access\n",
+            "2318 cafes\n",
+            "2287 places\n",
+            "2281 unit\n",
+            "2262 worship\n",
+            "2262 places worship\n",
+            "2250 detached\n",
+            "2240 bedrooms bathrooms\n",
+            "2212 restaurants\n",
+            "2209 hardwood\n",
+            "2201 older\n",
+            "2200 shops restaurants\n",
+            "2200 buyer\n",
+            "2168 bungalow\n",
+            "2127 bed bath\n",
+            "2118 adds\n",
+            "2095 closet\n",
+            "2085 parks trails\n",
+            "2038 fixtures\n",
+            "2021 located\n",
+            "2014 parking spot\n",
+            "2012 light fixtures\n",
+            "1996 add\n",
+            "1983 cared\n",
+            "1962 backyard\n",
+            "1955 townhouse\n",
+            "1931 updated\n",
+            "1922 hardwood floors\n",
+            "1918 young\n",
+            "1905 downtown commute\n",
+            "1890 come\n",
+            "1853 original finishes\n",
+            "1839 bathroom condo\n",
+            "1824 near\n",
+            "1802 quiet\n",
+            "1797 car\n",
+            "1795 fresh\n",
+            "1744 street\n",
+            "1728 main\n",
+            "1685 custom\n",
+            "1680 touch\n",
+            "1651 vision\n",
+            "1639 professionals\n",
+            "1627 fully redone\n",
+            "1617 don\n",
+            "1612 just\n",
+            "1598 open concept\n",
+            "1598 concept\n",
+            "1569 need\n",
+            "1546 large\n",
+            "1542 ll\n",
+            "1538 terrace\n",
+            "1538 spacious\n",
+            "1535 rooftop\n",
+            "1530 rooftop terrace\n",
+            "1529 den\n",
+            "1527 ensuite\n",
+            "1518 bring\n",
+            "1516 original kitchen\n",
+            "1514 laundry\n",
+            "1505 plus\n",
+            "1500 ceiling\n",
+            "1491 time buyers\n",
+            "1488 car garage\n",
+            "1485 ensuite laundry\n",
+            "1467 office\n",
+            "== ready\n",
+            "... ily. This home has been updated in key areas and is move-in ready, with the solid bones that make a bungalow such a prac ...\n",
+            "... worship are within easy reach. A home with solid potential, ready for a thoughtful update. ...\n",
+            "... a deck off the kitchen and a large fenced yard. This one is ready for your family! ...\n",
+            "... lid backsplit on Magnolia Gardens that is offered as-is and ready for a buyer to put their touch on it. The solid brick  ...\n",
+            "... ted and the bathroom needs a full redo. It's offered as-is, ready for a renovator or investor. The community centre is c ...\n",
+            "== touch\n",
+            "... ps, ideal for hosting. The refreshed bathroom adds a modern touch. Mature trees frame the property, giving you privacy a ...\n",
+            "... ew stainless steel appliances. Heated bathroom floors add a touch of luxury. The fenced yard offers privacy and outdoor  ...\n",
+            "... ed, but the bones are fantastic—perfect for adding your own touches over time. You can move in as-is and modernize at yo ...\n",
+            "...  steel appliances, and the new bathroom vanity adds a fresh touch. Step out to your open balcony for morning coffee or e ...\n",
+            "... s or investors, this home is just waiting for your personal touch. Conveniently located near the library, it’s a great o ...\n",
+            "== needs\n",
+            "... d ravine trails. Move in and enjoy the easy lifestyle. Just needs your personal touch over time. ...\n",
+            "... re. This 2-bedroom, 1-bathroom condo apartment in Sumacwood needs a full cosmetic overhaul. It requires new paint and fl ...\n",
+            "...  walkway sets the stage for gatherings, though the basement needs waterproofing and finishing. Offered as-is, this one s ...\n",
+            "... n for an easy commute, this home is ideal for a family that needs room to grow. ...\n",
+            "... ious potential? This one-bedroom on Pine Lane in Birchgrove needs a full cosmetic overhaul. The electrical is dated, mak ...\n",
+            "== original\n",
+            "... Sycamore Crescent in Lindenvale, Etobicoke, features a tidy original kitchen that's in good shape, plus floor-to-ceiling ...\n",
+            "... s. Floor-to-ceiling windows bring in tons of natural light. Original finishes throughout mean a full cosmetic overhaul i ...\n",
+            "... Classic original finishes and parquet floors give this 3-bedroom, 2- ...\n",
+            "... h A 19 X 114 Ft Lot. Covered Front Porch Welcomes You Home. Original Finishes That Are Tired But Full Of Character. Grea ...\n",
+            "... th Condo Needs Significant Updating — Kitchen And Baths Are Original, Finishes Are Showing Their Age. Perfect For A Comm ...\n",
+            "== bones\n",
+            "... roughout Mean The Kitchen And Baths Need Replacing, But The Bones Are Solid. Steps To A Community Centre. Offered As-Is  ...\n",
+            "... you? This 1-bedroom bungalow in Magnoliaworth features good bones and offers ample parking with a garage that has inside ...\n",
+            "... Offered as a home with great bones, this four-bedroom on Juniper Trail in Lindencrest wel ...\n",
+            "... d tired, so a buyer will want to modernize over time. Great bones in a great building. Steps to your downtown commute. O ...\n",
+            "...  older furnace will need attention, this home has wonderful bones and is offered as-is, perfect for a first-time buyer l ...\n",
+            "== clean\n",
+            "... droom, 2-bathroom condo at Alder Drive in Juniperheights is clean and cared for. Guest suites in the building add conven ...\n",
+            "... nd a private patio extends your outdoor living. The home is clean and cared for with mostly original finishes in good sh ...\n",
+            "... iper Trail is move-in ready with original finishes that are clean and cared for. The split-bedroom layout offers privacy ...\n",
+            "...  window package, but the building has a gym and party room. Clean and lived-in condition with great bones. Library and h ...\n",
+            "...  Enjoy easy access to transit and highway connectivity. The clean and maintained unit is ready for you to add your perso ...\n"
+          ]
+        }
+      ]
+    },
+    {
       "cell_type": "markdown",
       "metadata": {
         "id": "cell-10"
@@ -847,13 +1113,13 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "cell-11",
-        "outputId": "4e5c526d-1d91-4694-a388-aac6428ce398",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "cell-11",
+        "outputId": "30be2e8d-fc0a-4a12-c6b6-231e0b50f56a"
       },
-      "execution_count": 73,
+      "execution_count": 105,
       "outputs": [
         {
           "output_type": "stream",
@@ -873,7 +1139,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 73
+          "execution_count": 105
         }
       ],
       "source": [
@@ -885,14 +1151,14 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "cell-12",
-        "outputId": "f617a4d4-af31-492d-8d89-50ba173cfab9",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 17
-        }
+        },
+        "id": "cell-12",
+        "outputId": "af8726e8-60e2-4b5d-ec48-2e35fe8a4786"
       },
-      "execution_count": 74,
+      "execution_count": 106,
       "outputs": [
         {
           "output_type": "display_data",
@@ -953,7 +1219,7 @@
               "<IPython.core.display.Javascript object>"
             ],
             "application/javascript": [
-              "download(\"download_841ff15a-5179-480a-9433-b9f92ab36c7e\", \"submission_off_market.csv\", 84955)"
+              "download(\"download_5993e850-8dc7-4466-b6eb-6a5925e6a1f3\", \"submission_off_market.csv\", 84955)"
             ]
           },
           "metadata": {}
@@ -1017,7 +1283,7 @@
               "<IPython.core.display.Javascript object>"
             ],
             "application/javascript": [
-              "download(\"download_b3328ee1-3795-47ed-9709-33a44e46eff8\", \"submission_list_aware.csv\", 86788)"
+              "download(\"download_0a22ebe4-312c-4787-b4c3-04cc111d543e\", \"submission_list_aware.csv\", 86788)"
             ]
           },
           "metadata": {}
@@ -1031,6 +1297,31 @@
         "    files.download(\"submissions/submission_list_aware.csv\")"
       ],
       "id": "cell-12"
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import features\n",
+        "print(list(features.off_market_features(listings.head(5)).columns))"
+      ],
+      "metadata": {
+        "id": "33dYU6Qm-rrt",
+        "outputId": "77bceb76-c582-47db-a461-cc779b05e5e8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "33dYU6Qm-rrt",
+      "execution_count": 107,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['square_feet', 'bedrooms', 'washrooms', 'parking', 'lot_size', 'garage', 'municipality', 'community', 'latitude', 'longitude', 'months', 'is_Condo Apt', 'is_Detached', 'is_Semi-Detached', 'is_Condo Townhouse', 'is_Freehold Townhouse', 'is_Co-Op Apt']\n"
+          ]
+        }
+      ]
     }
   ],
   "metadata": {
